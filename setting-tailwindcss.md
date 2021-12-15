@@ -1,5 +1,3 @@
-Tiền đề: bạn đã cài đặt NodeJS thành công trên máy tính. Để kiểm tra là đã cài đặt thành công NodeJS, bạn vào terminal, gõ npm -v nhấn enter, và npx -v nhấn enter, nếu ra được số version thì đã thành công, nếu bị báo lỗi thì comment bên dưới.
-
 1. Cài đặt
 Trong terminal, di chuyển đến thư mục cần cài đặt bằng cách gõ lệnh cd đường_dẫn_đến thư mục cần cài đặt>, sau đó gõ:
 
