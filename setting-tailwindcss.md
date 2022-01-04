@@ -36,7 +36,7 @@ Nếu bạn thấy trong thư mục có thêm 2 file tailwind.config.js và post
 5. Ghi đè nội dung file tailwind.config.js
 module.exports = {
   content: [
-   "./src/**/*.{html,js}"
+   "**/*.html","./src/**/*.{html,js}
   ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
