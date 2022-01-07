@@ -23,9 +23,8 @@ Nếu bạn thấy trong thư mục có thêm 2 file tailwind.config.js và post
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss --postcss -i ./src/style.css -o ./css/style.css",
-    "watch": "npx tailwindcss --postcss  -i ./src/style.css -o ./css/style.css --watch",
-    "build" : "NODE_ENV=production npx tailwindcss --postcss -i ./src/style.css -o ./css/style.css"
+    "dev": "vite",
+    "watch":"npx tailwindcss -i ./src/main.css -o ./build/style.css --watch" 
   },
   "devDependencies": {
     "autoprefixer": "^10.3.4",
