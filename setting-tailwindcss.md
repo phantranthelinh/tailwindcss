@@ -1,16 +1,11 @@
-1. Cài đặt
-Trong terminal, di chuyển đến thư mục cần cài đặt bằng cách gõ lệnh cd đường_dẫn_đến thư mục cần cài đặt>, sau đó gõ:
+
 
 npm init -y
 
 npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 
-Nếu bạn thấy trong thư mục có thư mục node_modules & file packages.json thì đã thành công.
 
-2. Tạo file config
 npx tailwindcss init -p
-
-Nếu bạn thấy trong thư mục có thêm 2 file tailwind.config.js và postcss.config.js thì đã thành công.
 
 3. Tạo file src/style.css
 @tailwind base;
